@@ -1,0 +1,8 @@
+**/bin/
+*.pdf
+*.jar
+**/target/
+.classpath
+.project
+.settings
+.factorypath
