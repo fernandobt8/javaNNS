@@ -13,7 +13,7 @@ import javax.imageio.ImageIO;
 public class ImageReader {
 
 	public static void main(String[] args) throws IOException {
-		File input = new File("/home/fernandobt8/github/javaNNS.images/image.reader/src/main/resources/0.png");
+		File input = new File("/home/fernandobt8/github/javaNNS.images/image.reader/src/main/resources/9.png");
 		System.out.println(input.getAbsolutePath());
 		BufferedImage read = ImageIO.read(input);
 		List<Integer> colors = new LinkedList<>();
